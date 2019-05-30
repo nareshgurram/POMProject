@@ -29,6 +29,10 @@ public class LoginTest extends BaseControl {
 		Assert.assertEquals(title, "Welcome: Mercury Tours");
 	}
 	
+	@Test
+	public void logintesttest(){
+		
+	}
 	
 	@AfterMethod
 	public void teardown(){
