@@ -31,7 +31,8 @@ public class LoginTest extends BaseControl {
 	
 	@Test
 	public void logintesttest(){
-		
+		String title =loginpage.validateLoginPageTitle();
+		Assert.assertEquals(title, "Welcome: Mercury Tours");
 	}
 	
 	@AfterMethod
